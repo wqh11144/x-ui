@@ -20,6 +20,8 @@
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
 
+> **默认账户信息**：首次安装后，默认用户名：`wqh11144`，默认密码：`pro@2026`，默认端口：`12345`。请安装后及时修改密码以确保安全。
+
 ## 手动安装&升级
 
 1. 首先从 https://github.com/vaxilu/x-ui/releases 下载最新的压缩包，一般选择 `amd64`架构
