@@ -146,15 +146,15 @@ uninstall() {
 }
 
 reset_user() {
-    confirm "确定要将用户名和密码重置为 admin 吗" "n"
+    confirm "确定要将用户名和密码重置为 adminpro 吗" "n"
     if [[ $? != 0 ]]; then
         if [[ $# == 0 ]]; then
             show_menu
         fi
         return 0
     fi
-    /usr/local/x-ui/x-ui setting -username admin -password admin
-    echo -e "用户名和密码已重置为 ${green}admin${plain}，现在请重启面板"
+    /usr/local/x-ui/x-ui setting -username adminpro -password pro@2026
+    echo -e "用户名和密码已重置为 ${green}adminpro${plain}，现在请重启面板"
     confirm_restart
 }
 
